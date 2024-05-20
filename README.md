@@ -1,71 +1,91 @@
-# PyOrganizador
+<h1 align="center">PyOrganizador</h1>
 
-Este script en Python organiza automáticamente los archivos de la carpeta de Descargas en categorías como Imágenes, Documentos, Programas, Videos y Música. Es multiplataforma y puede configurarse para ejecutarse automáticamente cada 30 minutos.
+###
 
-## Requisitos
+<p align="left">PyOrganizador es un script Python que organiza automáticamente los archivos descargados en carpetas según su extensión, manteniendo tu sistema ordenado y fácil de usar.</p>
 
-- Python 3.x
+###
 
-## Instalación
+<h2 align="left">Requisitos</h2>
 
-1. **Clona o descarga este repositorio:**
+###
 
-    
-    git clone https://github.com/DevLuisFF/PyOrganizador.git
-    
+<p align="left">Python 3.x</p>
 
-2. **Navega al directorio del proyecto:**
+###
 
-    
-    cd PyOrganizador
-    
+<h2 align="left">Instalación</h2>
 
-## Uso
+###
 
-1. **Ejecuta el script manualmente:**
+<h6 align="left">Clona o descarga este repositorio:</h6>
 
-    
-    python3 PyOrganizador.py
-    
+###
 
-    El script organizará los archivos en la carpeta de Descargas en subcarpetas según su tipo (Imágenes, Documentos, Programas, Videos, Música, Otros).
+<p align="left">git clone https://github.com/DevLuisFF/PyOrganizador.git</p>
 
-## Automatización
+###
 
-### En Windows
+<h6 align="left">Navega al directorio del proyecto:</h6>
 
-1. Abre el **Programador de Tareas**.
-2. Crea una **Tarea Básica**.
-3. En **Nombre**, pon algo como "Organizar Descargas".
-4. Configura el **Desencadenador** para que se ejecute cada 30 minutos.
-5. En **Acción**, selecciona **Iniciar un programa**.
-6. Selecciona `python` o la ruta a tu intérprete de Python, y como argumento pon la ruta completa a tu script `organizador_descargas.py`.
+###
 
-### En macOS y Linux
+<p align="left">cd PyOrganizador</p>
 
-1. Abre una terminal.
-2. Edita el crontab usando `crontab -e`.
-3. Añade la siguiente línea al final del archivo (reemplaza `/ruta/a/tu/script` con la ruta real a tu script):
+###
 
-    
-    */30 * * * * /usr/bin/python3 /ruta/a/tu/script/organizador_descargas.py
-    
+<h2 align="left">Uso</h2>
 
-    Esto configurará `cron` para ejecutar el script cada 30 minutos.
+###
 
-## Notas
+<h6 align="left">Ejecuta el script manualmente:</h6>
 
-- Si el script no puede encontrar automáticamente la carpeta de Descargas, te pedirá que ingreses la ruta manualmente.
-- Las categorías y sus extensiones asociadas se pueden modificar editando el diccionario `CATEGORIES` en el script.
+###
 
-## Contribución
+<p align="left">python3 PyOrganizador.py<br><br>El script organizará los archivos en la carpeta de Descargas en subcarpetas según su tipo (Imágenes, Documentos, Programas, Videos, Música, Otros).</p>
 
-1. Haz un fork del proyecto.
-2. Crea una nueva rama (`git checkout -b feature-nueva-caracteristica`).
-3. Realiza tus cambios y haz commit (`git commit -am 'Añadir nueva característica'`).
-4. Haz push a la rama (`git push origin feature-nueva-caracteristica`).
-5. Crea un nuevo Pull Request.
+###
 
-## Licencia
+<h2 align="left">Automatización</h2>
 
-Este proyecto está licenciado bajo los términos de la licencia MIT.
+###
+
+<h6 align="left">En Windows:</h6>
+
+###
+
+<p align="left">-Abre el Programador de Tareas.<br>-Crea una Tarea Básica.<br>-En Nombre, pon algo como "Organizar Descargas".<br>-Configura el Desencadenador para que se ejecute cada 30 minutos.<br>-En Acción, selecciona Iniciar un programa.<br>-Selecciona python o la ruta a tu intérprete de Python, y como argumento pon la ruta completa a tu script PyOrganizador.py.</p>
+
+###
+
+<h6 align="left">En macOS y Linux:</h6>
+
+###
+
+<p align="left">-Abre una terminal.<br>-Edita el crontab usando crontab -e.<br><br>-Añade la siguiente línea al final del archivo (reemplaza /ruta/a/tu/script con la ruta real a tu script):<br><br>*/30 * * * * /usr/bin/python3 /ruta/a/tu/script/organizador_descargas.py<br><br>-Esto configurará cron para ejecutar el script cada 30 minutos.</p>
+
+###
+
+<h2 align="left">Notas</h2>
+
+###
+
+<p align="left">-Si el script no puede encontrar automáticamente la carpeta de Descargas, te pedirá que ingreses la ruta manualmente.<br>-Las categorías y sus extensiones asociadas se pueden modificar editando el diccionario CATEGORIES en el script.</p>
+
+###
+
+<h2 align="left">Contribución</h2>
+
+###
+
+<p align="left">-Haz un fork del proyecto.<br>-Crea una nueva rama (git checkout -b feature-nueva-caracteristica).<br>-Realiza tus cambios y haz commit (git commit -am 'Añadir nueva característica').<br>-Haz push a la rama (git push origin feature-nueva-caracteristica).<br>-Crea un nuevo Pull Request.</p>
+
+###
+
+<h2 align="left">Licencia</h2>
+
+###
+
+<p align="left">Este proyecto está licenciado bajo los términos de la licencia MIT.</p>
+
+###
