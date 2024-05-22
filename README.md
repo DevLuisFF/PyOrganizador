@@ -6,51 +6,49 @@
 
 ###
 
-<h2 align="left">Requisitos</h2>
+<h2 align="left">Tecnologías:</h2>
 
 ###
 
-<p align="left">Python 3.x</p>
+<div align="center">
+  <img src="https://cdn.simpleicons.org/python/3776AB" height="40" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/visualstudiocode/007ACC" height="40" alt="vscode logo"  />
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/git/F05032" height="40" alt="git logo"  />
+</div>
 
 ###
 
-<h2 align="left">Instalación</h2>
+<h2 align="left">Requisitos:</h2>
 
 ###
 
-<h6 align="left">Clona o descarga este repositorio:</h6>
+<p align="left">-Python 3.x<br>-Git</p>
 
 ###
 
-<p align="left">git clone https://github.com/DevLuisFF/PyOrganizador.git</p>
+<h2 align="left">Instalación:</h2>
 
 ###
 
-<h6 align="left">Navega al directorio del proyecto:</h6>
+<p align="left">-Clona o descarga este repositorio:<br><br>git clone https://github.com/DevLuisFF/PyOrganizador.git<br><br>-Navega al directorio del proyecto:<br><br>cd PyOrganizador</p>
 
 ###
 
-<p align="left">cd PyOrganizador</p>
+<h2 align="left">Uso:</h2>
 
 ###
 
-<h2 align="left">Uso</h2>
+<p align="left">-Ejecuta el script manualmente:<br><br>python3 PyOrganizador.py<br><br>El script organizará los archivos en la carpeta de Descargas en subcarpetas según su tipo (Imágenes, Documentos, Programas, Videos, Música, Otros).</p>
 
 ###
 
-<h6 align="left">Ejecuta el script manualmente:</h6>
+<h2 align="left">Automatización:</h2>
 
 ###
 
-<p align="left">python3 PyOrganizador.py<br><br>El script organizará los archivos en la carpeta de Descargas en subcarpetas según su tipo (Imágenes, Documentos, Programas, Videos, Música, Otros).</p>
-
-###
-
-<h2 align="left">Automatización</h2>
-
-###
-
-<h6 align="left">En Windows:</h6>
+<h4 align="left">En Windows:</h4>
 
 ###
 
@@ -58,15 +56,15 @@
 
 ###
 
-<h6 align="left">En macOS y Linux:</h6>
+<h4 align="left">En macOS y Linux:</h4>
 
 ###
 
-<p align="left">-Abre una terminal.<br>-Edita el crontab usando crontab -e.<br><br>-Añade la siguiente línea al final del archivo (reemplaza /ruta/a/tu/script con la ruta real a tu script):<br><br>*/30 * * * * /usr/bin/python3 /ruta/a/tu/script/organizador_descargas.py<br><br>-Esto configurará cron para ejecutar el script cada 30 minutos.</p>
+<p align="left">-Abre una terminal.<br>-Edita el crontab usando crontab -e.<br><br>-Añade la siguiente línea al final del archivo (reemplaza /ruta/a/tu/script con la ruta real a tu script):<br><br>*/30 * * * * /usr/bin/python3 /ruta/al/script/organizador_descargas.py<br><br>-Esto configurará cron para ejecutar el script cada 30 minutos.</p>
 
 ###
 
-<h2 align="left">Notas</h2>
+<h2 align="left">Notas:</h2>
 
 ###
 
@@ -74,18 +72,10 @@
 
 ###
 
-<h2 align="left">Contribución</h2>
+<h2 align="left">Contribución:</h2>
 
 ###
 
 <p align="left">-Haz un fork del proyecto.<br>-Crea una nueva rama (git checkout -b feature-nueva-caracteristica).<br>-Realiza tus cambios y haz commit (git commit -am 'Añadir nueva característica').<br>-Haz push a la rama (git push origin feature-nueva-caracteristica).<br>-Crea un nuevo Pull Request.</p>
-
-###
-
-<h2 align="left">Licencia</h2>
-
-###
-
-<p align="left">Este proyecto está licenciado bajo los términos de la licencia MIT.</p>
 
 ###
