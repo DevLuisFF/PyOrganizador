@@ -32,7 +32,7 @@
 
 ###
 
-<p align="left">-Clona o descarga este repositorio:<br><br>git clone https://github.com/DevLuisFF/PyOrganizador.git<br><br>-Navega al directorio del proyecto:<br><br>cd PyOrganizador</p>
+<p align="left">-Clona o descarga este repositorio:<br><br>git clone https://github.com/DevLuisFF/PyOrganizador.git<br><br>-Navega al directorio del proyecto:<br><br>cd src</p>
 
 ###
 
